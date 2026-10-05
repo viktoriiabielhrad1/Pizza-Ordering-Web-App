@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Pizza Ordering Web App
+-
+A full‑stack food ordering system built with Next.js and MongoDB, deployed on Vercel.
+The app provides a complete ordering workflow including browsing products, viewing details,
+adding items to cart, checkout, order confirmation, and user authentication.
 
-## Getting Started
+Overview
+-
+The project implements a modern pizza ordering experience with a global layout, responsive pages,
+dynamic routing, and persistent data storage. Wireframes guided the design of all pages: Home,
+Menu, Product View, Cart, Checkout, Login, Register, and Thank You.
 
-First, run the development server:
+Features
+-
+Global Layout;
+Shared header, navigation tabs, and footer;
+Logo and contact information;
+Styled MUI Tabs for navigation;
+Background image and consistent UI across all pages;
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Home Page
+-
+Promotional pizza deals;
+Product previews with images and descriptions;
+"Order Now" buttons linking to dynamic product pages;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Menu (Dashboard)
+-
+Displays all pizzas and drinks;
+"More Info" links to product details;
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Product View Page
+-
+Dynamic routing using query parameters;
+Product image, description, size selection, quantity controls;
+Add‑to‑cart functionality;
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Cart Page
+-
+Lists all items added by the user;
+Quantity, size, price, and remove option;
+Total calculation and checkout button;
 
-## Learn More
+Checkout Page
+-
+Delivery address input;
+Payment method selection;
+Order summary and confirmation button;
 
-To learn more about Next.js, take a look at the following resources:
+Thank You Page
+-
+Order number;
+Estimated delivery time;
+Navigation back to home;
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Authentication
+-
+Login and Register pages;
+User creation stored in MongoDB;
+Login history stored in the login collection;
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Database (MongoDB)
+-
+Collections used:
+products – pizza/drink details, sizes, images;
+users – registration data;
+orders – items, totals, timestamps;
+cart – cart items;
+login – login activity tracking.
 
-## Deploy on Vercel
+Technologies
+-
+Next.js ;
+React;
+MongoDB;
+MUI components;
+CSS modules and inline styling;
+Vercel deployment;
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Purpose
+-
+This project demonstrates full‑stack development using Next.js, dynamic routing, UI design, 
+and MongoDB integration. It covers the complete workflow of a food ordering system from browsing
+products to placing an order.
