@@ -75,7 +75,7 @@ React;
 MongoDB;
 MUI components;
 CSS modules and inline styling;
-Vercel deployment;
+Vercel deployment --> https://assignment-1-seven-pi.vercel.app/
 
 Purpose
 -
