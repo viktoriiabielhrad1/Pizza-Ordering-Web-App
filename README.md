@@ -4,6 +4,10 @@ A full‑stack food ordering system built with Next.js and MongoDB, deployed on 
 The app provides a complete ordering workflow including browsing products, viewing details,
 adding items to cart, checkout, order confirmation, and user authentication.
 
+Live Demo
+-
+https://pizzaordering-plum.vercel.app/
+
 Overview
 -
 The project implements a modern pizza ordering experience with a global layout, responsive pages,
@@ -75,7 +79,7 @@ React;
 MongoDB;
 MUI components;
 CSS modules and inline styling;
-Vercel deployment --> https://pizzaordering-plum.vercel.app/
+Vercel deployment 
 
 Purpose
 -
