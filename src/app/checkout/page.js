@@ -58,7 +58,7 @@ export default function CheckoutPage() {
 
     if (data.success) {
       alert("Order confirmed!");
-      window.location.href = `/thankYou?order=${data.orderId}`;
+      window.location.href = `/thankyou?order=${data.orderId}`;
     } else {
       alert("Error placing order.");
     }
