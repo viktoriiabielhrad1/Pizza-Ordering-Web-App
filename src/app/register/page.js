@@ -170,6 +170,12 @@ value={phone}
               Register
             </Button>
 
+{/* SUCCESS MESSAGE */}
+{open && (
+  <p style={{ color: "green", marginTop: "10px" }}>
+    Registration successful!
+  </p>
+)}
             <br />
             <br />
 {/*LOGIN LINK*/}
